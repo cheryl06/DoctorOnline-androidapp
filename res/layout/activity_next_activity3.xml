@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Personal_Information" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Viral Fever"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginTop="35dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:text="Home Remedy (Recommended)\n•	Consume good amount of fluids but not milk.\n
+•	Gargle with lukewarm water after adding a little salt to it.\n
+•	For diarrhea due to viral fever in children, take a pinch full of black pepper powder and mix it in tea and let the kid have few teaspoonful of this.\n
+•	Have some cooked food without spices. Avoid outside food when suffering from viral fever.\n\n
+If you do not get relief from these viral fever home remedies, see your doctor to get advanced treatment for your fever.\n
+               "
+        android:textAppearance="?android:attr/textAppearanceSearchResultSubtitle" />
+     
+   <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_marginTop="300dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:text="Medicine: \nTablets with Paracetamol content."
+        
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/textView2"
+       android:layout_alignRight="@+id/textView2"
+       android:text="Back" 
+       android:onClick="gotoSymptoms"
+       />
+             
+             </RelativeLayout>

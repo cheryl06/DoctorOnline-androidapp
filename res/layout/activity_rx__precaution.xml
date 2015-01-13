@@ -1,0 +1,46 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Personal_Information" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Precaution:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:text="In the Medical History it is Mentioned that:"
+        android:textAppearance="?android:attr/textAppearanceSearchResultSubtitle" />
+     
+   <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_marginTop="100dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:text="You are suffering from an Allergy problem.\n\nAnd/Or\n\nYou are having Blood Pressure problem.\n\nAnd/Or\n\nYou are Diabetic Patient.\n\nHence please do consult your doctor for the prescription.\n"
+        
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+             
+</RelativeLayout>

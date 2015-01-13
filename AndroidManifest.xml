@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.abc.Personal_Information"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.abc.ActivityNext"
+            android:label="@string/title_activity_activity_next"
+            android:parentActivityName="com.example.doctoronline1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctoronline1.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.abc.NextActivity2"
+            android:label="@string/title_activity_next_activity2"
+            android:parentActivityName="com.example.doctoronline1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctoronline1.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.abc.NextActivity3"
+            android:label="@string/title_activity_next_activity3"
+            android:parentActivityName="com.example.doctoronline1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctoronline1.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.abc.Activity_next_activity3_head"
+            android:label="@string/title_activity_activity_next_activity3_head"
+            android:parentActivityName="com.example.doctoronline1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctoronline1.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.abc.Activity_next_activity3_dia"
+            android:label="@string/title_activity_activity_next_activity3_dia"
+            android:parentActivityName="com.example.doctoronline1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctoronline1.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.abc.Rx_Precaution"
+            android:label="@string/title_activity_rx__precaution"
+            android:parentActivityName="com.example.doctoronline1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctoronline1.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Personal_Information</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_next">Medical_History</string>
+    <string name="title_activity_next_activity2">Symptoms</string>
+    <string name="title_activity_next_activity3">Rx_Viral_Fever</string>
+    <string name="title_activity_activity_next_activity3_head">Rx_Headache</string>
+    <string name="title_activity_activity_next_activity3_dia">Rx_Diarrhea</string>
+    <string name="title_activity_rx__precaution">Rx_Precaution</string>
+
+</resources>

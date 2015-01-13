@@ -1,0 +1,71 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Personal_Information" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Headache:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:text="Home Remedy (Recommended)\n \n
+•	First drink a glass of hot spiced tea. \n
+•	Take a cold damp rag and lay it across your forehead and/or eyes. \n
+
+•	After that lie down with the rag on your forehead and/or eyes in a dim or dark area. 
+	Make sure you are comfortable. In a short while you should feel better.\n
+        "
+        android:textAppearance="?android:attr/textAppearanceSearchResultSubtitle" />
+     
+   <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_marginTop="210dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+      
+
+        android:text="Medicine: \n\n
+1.	Aspirin \n
+OR \n
+2.	Butalbital Compound (aspirin/butalbital/caffeine)\n\n
+Please do consult your doctor in person as soon as possible."
+        
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/textView2"
+       android:layout_alignRight="@+id/textView2"
+       android:text="Back" 
+       android:onClick="gotoSymptoms"
+       />
+             
+             
+</RelativeLayout>
